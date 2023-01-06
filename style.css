@@ -1,0 +1,31 @@
+body {
+    background: #8d8d8d;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 70px;
+    overflow-x: hidden;
+    margin: 0;
+    display: block;
+}
+
+.test-btn{
+    margin: 20px;
+    padding: 13px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #8f1270;
+    transition: transform .10s linear; /* Animation */
+    float: right;
+}
+.test-btn:hover{
+    background-color: #8f5512;
+    transition: 0.7s;
+    transform: scale(1.5);
+}
+
+.container{
+    display: block;
+}
